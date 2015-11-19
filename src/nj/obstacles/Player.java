@@ -10,5 +10,9 @@ public class Player extends Obstacle {
 	public ImageIcon getIcon() {
 		return new ImageIcon(Constants.PICTURE_PATH + "player.png");
 	}
+	
+	public void move() {
+		
+	}
 
 }

@@ -10,29 +10,33 @@ import nj.obstacles.Wall;
 
 public class Field {
 
-	private ArrayList<Obstacle> content;
+	private ArrayList<Obstacle> obstacles;
 	
 	public Field() {
-		this.content = new ArrayList<Obstacle>();
-		content.add(new Wall());
-		content.add(new Player());
+		obstacles = new ArrayList<Obstacle>();
+		obstacles.add(new Wall());
+		obstacles.add(new Player());
 	}
 	
 	public ArrayList<ImageIcon> getIcons() {
 		ArrayList<ImageIcon> icons = new ArrayList<ImageIcon>();
 		
-		for (Obstacle o : content)
+		for (Obstacle o : obstacles)
 			icons.add(o.getIcon());
 		
 		return icons;
 	}
 
 	public ArrayList<Obstacle> getContent() {
-		return content;
+		return obstacles;
 	}
 
-	public void addContent(ArrayList<Obstacle> content) {
-		this.content = content;
+	public void addObstacle(ArrayList<Obstacle> obstacle) {
+		obstacles = obstacle;
+	}
+
+	public void removeObstacle(ArrayList<Obstacle> obstacle) {
+		obstacles.remove(obstacle);
 	}
 	
 }
