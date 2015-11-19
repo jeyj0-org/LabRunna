@@ -1,7 +1,5 @@
 package nj.main;
 
-import javax.swing.JFrame;
-
 import nj.layout.MainFrame;
 
 /**
@@ -15,6 +13,8 @@ public class Main {
 	public static void main(String[] args) {
 		// creates a new window
 		MainFrame frame = new MainFrame();
+		frame.showStuff();
+	    frame.setVisible(true);
 	}
 
 }
