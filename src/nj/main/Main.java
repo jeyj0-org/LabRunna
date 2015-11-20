@@ -1,6 +1,6 @@
 package nj.main;
 
-import jannis.pixlengine.MainFrame;
+import jannis.pixlengine.PixlEngine;
 
 /**
  * @author Jannis and Nicolas
@@ -12,7 +12,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// creates a new window
-		MainFrame frame = new MainFrame(Constants.PROJECT_NAME);
+		PixlEngine engine = new PixlEngine(Constants.RESOURCE_PATH, Constants.PROJECT_NAME, Constants.CHUNK_SIZE);
 	}
 
 }
