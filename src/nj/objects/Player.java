@@ -1,4 +1,6 @@
-package jannis.pixlengine.objects;
+package nj.objects;
+
+import jannis.pixlengine.objects.Object;
 
 import javax.swing.ImageIcon;
 

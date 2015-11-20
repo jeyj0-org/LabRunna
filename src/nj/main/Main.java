@@ -13,8 +13,6 @@ public class Main {
 	public static void main(String[] args) {
 		// creates a new window
 		MainFrame frame = new MainFrame(Constants.PROJECT_NAME);
-		frame.showStuff();
-	    frame.setVisible(true);
 	}
 
 }
