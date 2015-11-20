@@ -1,10 +1,10 @@
-package nj.obstacles;
+package jannis.pixlengine.objects;
 
 import javax.swing.ImageIcon;
 
 import nj.main.Constants;
 
-public class Player extends Obstacle {
+public class Player extends Object {
 
 	@Override
 	public ImageIcon getIcon() {

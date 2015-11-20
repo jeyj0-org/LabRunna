@@ -1,4 +1,4 @@
-package nj.world;
+package jannis.pixlengine.world;
 
 import nj.main.Constants;
 

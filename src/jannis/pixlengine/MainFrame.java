@@ -1,4 +1,6 @@
-package nj.layout;
+package jannis.pixlengine;
+
+import jannis.pixlengine.world.Field;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -9,7 +11,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import nj.main.Constants;
-import nj.world.Field;
 
 /**
  * @author Jannis and Nicolas
@@ -21,14 +22,14 @@ public class MainFrame extends JFrame {
 	/**
 	 * General constructor
 	 */
-	public MainFrame() {
+	public MainFrame(String title) {
 		super();
 		
 		// ends java program on window close event
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		// sets the frame's title
-		this.setTitle(Constants.PROJECT_NAME);
+		this.setTitle(title);
 
 		// set bounds
 		this.setBounds(500, 200, 800, 450);
