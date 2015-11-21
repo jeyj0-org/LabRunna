@@ -12,7 +12,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// creates a new window
-		PixlEngine engine = new PixlEngine(Constants.RESOURCE_PATH, Constants.PROJECT_NAME, Constants.CHUNK_SIZE);
+		PixlEngine engine = new PixlEngine(1, 1, Constants.PROJECT_NAME, Constants.RESOURCE_PATH, Constants.CHUNK_SIZE);
 	}
 
 }
